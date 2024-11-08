@@ -1,0 +1,23 @@
+
+
+
+from turtle import *
+from random import *
+
+
+def dashed_line(angle):
+  forward(5)
+  penup()
+  forward(5)
+  pendown()
+
+for x in range(10):
+  dashed_line(1)
+
+forward(randrange(20, 100))
+right(randrange(0, 360))
+forward(randrange(20, 100))
+
+
+done()
+
